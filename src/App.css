@@ -2,19 +2,21 @@
   display: flex;
   background-color: #2a434a;
   padding: 1%;
-  color: white;
+  color: #c7d1d8;
 }
 .name{
   margin: 0px;
   padding: 0px;
   margin-left: 1%;
+  font-family: "Times New Roman", Georgia, Serif;
+  font-style: italic;
 }
 .fa-bars{
   margin-top: 0.5%;
-  font-size: 20px;
+  font-size: 25px;
 }
 .github{
-  margin-left: 68%;
+  margin-left: 65%;
 }
 .fa-github{
   font-size: 40px;
@@ -36,21 +38,49 @@
 }
 .list{
   margin: 0px;
-  padding: 0px;
+  padding-left: 15px;
   list-style: none;
 }
-.list li{
+.ignore{
+  float: left;
+  height: 20px;
+  width: 120px;
+  text-align: center;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.dontignore{
   float: left;
   border-left: solid 2px white;
   height: 20px;
   width: 120px;
   text-align: center;
   font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-left: 7px;
 }
 .content{
-  height: 560px;
-  background-image: url("/images/back.png");
+  height: 580px;
+  background-image: url("/images/background.jpg");
   background-size: 100% 100%; 
   background-repeat: no-repeat;
-  opacity: 0.5;
+  opacity: 0.7;
+}
+.myimage{
+  height: 300px;
+  width: 300px;
+  border-radius: 100%;
+  border: 2px solid white;
+  padding: 5px;
+  margin-top: -500px;
+  margin-left: 450px;
+  position: absolute; 
+}
+.hi{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  color: #0C1D27;
+  margin-top: -180px;
+  margin-left: 480px;
+  position: absolute;
 }
