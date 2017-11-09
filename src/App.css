@@ -1,0 +1,44 @@
+.App-header {
+  display: flex;
+  background-color: #222;
+  height: 30px;
+  padding: 2%;
+  color: white;
+  text-align: left;
+}
+.name{
+  margin: 0px;
+  padding: 0px;
+  margin-left: 15px;
+}
+.fa-bars{
+  margin-top: 5px;
+  font-size: 20px;
+}
+.navbar{
+  background-color: #222;
+  height: 20px;
+  color: white;
+  padding-bottom: 10px;
+}
+.list{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+.list li{
+  float: left;
+  border-left: solid 2px white;
+  height: 20px;
+  width: 120px;
+  text-align: center;
+  font-size: 20px;
+}
+.fa-github{
+  font-size: 40px;
+  margin-left: 70%;
+}
+.fa-linkedin{
+  font-size: 40px;
+  margin-left: 40%;
+}
