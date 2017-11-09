@@ -8,8 +8,8 @@ class App extends Component {
         <header className="App-header">
           <i className="fa fa-bars" />
           <h2 className="name">Samresh Kumar Sinha</h2>
-          <i className="fa fa-github" />
-          <a href="https://www.linkedin.com/in/samresh-kumar-sinha-84393b146/"><i className="fa fa-linkedin" /></a>
+          <a className="github" href="https://github.com/Samsinha8"><i className="fa fa-github" /></a>
+          <a className="linked" href="https://www.linkedin.com/in/samresh-kumar-sinha-84393b146/"><i className="fa fa-linkedin" /></a>
         </header>
         <div className="navbar">
           <ul className="list">
@@ -19,6 +19,8 @@ class App extends Component {
             <li>Portfolios</li>
             <li>Contact</li>
           </ul>
+        </div>
+        <div className="content">
         </div>
       </div>
     );
