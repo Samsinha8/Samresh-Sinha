@@ -11,9 +11,96 @@
   font-family: "Times New Roman", Georgia, Serif;
   font-style: italic;
 }
-.fa-bars{
+.openbtn{
   margin-top: 0.5%;
   font-size: 25px;
+  color: #c7d1d8;
+}
+.slideHeader {
+  width: 100%;
+  height: 60px;
+  margin-top: -60px;
+  background-color: #2a434a;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.sideimage{
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+  border: 1px solid white;
+  padding: 2px;
+  margin-left: 110px;
+}
+.closebtn {
+  color: #c7d1d8;
+  text-decoration: none;
+  display: block;
+  font-size: 30px;
+  margin-top: -85px;
+  margin-left: 270px;
+}
+.sidenav {
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    left: -320px;
+    background-color: #111;
+    overflow: hidden;
+    transition: 200ms;
+    padding-top: 60px;
+    box-shadow: rgba(0,0,0,0.14)5px -2px 2px 0px,rgba(0,0,0,0.12)5px -2px 5px 0px,rgba(0,0,0,0.2)5px -2px 1px -2px;
+}
+.links {
+    background-color: white;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    height: 560px;
+    padding-top: 15px;
+}
+.links a{
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  width: 300px;
+  height: 50px;
+  padding-top: 15px;
+}
+.space {
+    width: 0px;
+    padding-top: 2px;
+    color: lightgrey;
+    padding-left: 15px;
+}
+.align {
+    display: flex;
+}
+.align p{
+  margin-left: 45px;
+}
+.backdrop {
+  z-index: 2;
+  background-color: #000;
+  opacity: 0;
+  display: none;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transition: all 300ms ease;
+}
+#root:target .backdrop {
+    display: block;
+    opacity: 0.6;
+}
+#root:target .sidenav {
+    left: 0px;
+    transition: all 200ms ease;
 }
 .github{
   margin-left: 65%;
@@ -29,6 +116,8 @@
   font-size: 40px;
   color: #0077B5;
 }
+
+
 .navbar{
   background-color: #2a434a;
   min-height: 20px;
@@ -59,6 +148,12 @@
   font-family: Georgia, 'Times New Roman', Times, serif;
   padding-left: 7px;
 }
+.nodec{
+  text-decoration: none;
+  color: white;
+}
+
+
 .content{
   height: 580px;
   background-image: url("/images/background.jpg");
