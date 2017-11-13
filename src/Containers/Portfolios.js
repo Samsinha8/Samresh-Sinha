@@ -8,16 +8,15 @@ const Portfolios = () => (
     <Header />
     <div className="navbar">
       <ul className="list">
-        <li className="ignore"><Link to="/" className="nodec">Home</Link></li>
-        <li className="dontignore"><Link to="/About" className="nodec">About</Link></li>
-        <li className="dontignore"><Link to="/Skills" className="nodec">Skills</Link></li>
-        <li className="dontignore"><b>Portfolios</b></li>
-        <li className="dontignore"><Link to="/Contacts" className="nodec">Contacts</Link></li>
+        <Link to="/" className="nodec"><li className="ignore">Home</li></Link>
+        <Link to="/About" className="nodec"><li className="dontignore">About</li></Link>
+        <Link to="/Skills" className="nodec"><li className="dontignore">Skills</li></Link>
+        <Link to="/Portfolios" className="nodec"><li className="dontignore"><b>Portfolios</b></li></Link>
+        <Link to="/Contacts" className="nodec"><li className="dontignore">Contacts</li></Link>
       </ul>
     </div>
     <div className="content" />
     <div className="desc">
-      <h1 className="text">Portfolios</h1>
     </div>
   </div>
 );

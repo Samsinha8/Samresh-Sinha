@@ -1,5 +1,8 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:700,400,500,300,200,100);
+
 .App-header {
   display: flex;
+  flex-wrap: wrap;
   background-color: #2a434a;
   padding: 1%;
   color: #c7d1d8;
@@ -49,7 +52,7 @@
     left: -320px;
     background-color: #111;
     overflow: hidden;
-    transition: 200ms;
+    transition: 300ms;
     padding-top: 60px;
     box-shadow: rgba(0,0,0,0.14)5px -2px 2px 0px,rgba(0,0,0,0.12)5px -2px 5px 0px,rgba(0,0,0,0.2)5px -2px 1px -2px;
 }
@@ -100,7 +103,7 @@
 }
 #root:target .sidenav {
     left: 0px;
-    transition: all 200ms ease;
+    transition: all 300ms ease;
 }
 .github{
   margin-left: 65%;
@@ -119,10 +122,11 @@
 
 
 .navbar{
+  display: flex;
   background-color: #2a434a;
   min-height: 20px;
+  padding-bottom: 10px; 
   color: white;
-  padding-bottom: 10px;
   border-bottom: 2px solid white;
 }
 .list{
@@ -159,39 +163,125 @@
   background-image: url("/images/background.jpg");
   background-size: 100% 100%; 
   background-repeat: no-repeat;
-  opacity: 0.7;
+  opacity: 0.8;
+}
+.home{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 70%;
+  height: 580px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -580px;
 }
 .myimage{
   height: 300px;
   width: 300px;
   border-radius: 100%;
-  border: 2px solid white;
+  border: 2px solid #571F1F;
   padding: 5px;
-  margin-top: -500px;
-  margin-left: 450px;
-  position: absolute; 
 }
 .hi{
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-style: italic;
-  color: #0C1D27;
-  margin-top: -180px;
-  margin-left: 480px;
-  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  color: #571F1F;
+  font-size: 40px;
+  font-weight: 300;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.hi2{
+  font-family: 'Roboto', sans-serif;
+  color: #571F1F;
+  font-size: 20px;
+  font-weight: 500;
 }
 .desc{
-  display: flex;
-  justify-content: center;
+  border-radius: 2px;
   width: 70%;
-  height: 580px;
+  height: 560px;
   margin-left: auto;
   margin-right: auto;
-  background-color: grey;
-  margin-top: -580px;
+  background-color: rgba(250, 250, 250, 0.87);
+  margin-top: -560px;
   position: relative;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+}
+.desc p{
+  margin: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+}
+.abthead{
+  border-radius: 2px;
+  height: 25%;
+  width: 100%;
+  background-image: url("/images/abthead.jpg");
+  background-position-y: 70%;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+}
+.sklhead{
+  border-radius: 2px;
+  height: 25%;
+  width: 100%;
+  background-image: url("/images/sklhead.jpg");
+  background-position-y: 75%;
+  background-size: 100%; 
+  background-repeat: no-repeat;
+  opacity: 0.8;
 }
 .text{
-  margin: 0px;
+  margin-top: -45px;
+  position: absolute;
+  margin-left: 2%;
   padding: 0px;
   color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+}
+
+.contact{
+  text-align: center;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -550px;
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+}
+.contact h1{
+  font-weight: 200;
+  font-size: 60px;
+  color: #571F1F;
+}
+.first{
+  margin-top: 80px;
+  color: #571F1F;
+  font-size: 30px;
+  font-weight: 300;
+}
+.sec{
+  font-size: 23px;
+  color: #571F1F;
+  font-weight: 300;
+}
+.fa-envelope{
+  color: #571F1F;
+  font-size: 25px;
+  margin-right: 20px;
+}
+.fa-phone{
+  color: #571F1F;
+  font-size: 25px;
+  margin-right: 20px;
+}
+.contact h2{
+  font-size: 20px;
+  font-weight: 300;
+  color: #571F1F;
 }

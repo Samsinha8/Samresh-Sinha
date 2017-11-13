@@ -8,16 +8,20 @@ const Contacts = () => (
     <Header />
     <div className="navbar">
       <ul className="list">
-        <li className="ignore"><Link to="/" className="nodec">Home</Link></li>
-        <li className="dontignore"><Link to="/About" className="nodec">About</Link></li>
-        <li className="dontignore"><Link to="/Skills" className="nodec">Skills</Link></li>
-        <li className="dontignore"><Link to="/Portfolios" className="nodec">Portfolios</Link></li>
-        <li className="dontignore"><b>Contacts</b></li>
+        <Link to="/" className="nodec"><li className="ignore">Home</li></Link>
+        <Link to="/About" className="nodec"><li className="dontignore">About</li></Link>
+        <Link to="/Skills" className="nodec"><li className="dontignore">Skills</li></Link>
+        <Link to="/Portfolios" className="nodec"><li className="dontignore">Portfolios</li></Link>
+        <Link to="/Contacts" className="nodec"><li className="dontignore"><b>Contacts</b></li></Link>
       </ul>
     </div>
     <div className="content" />
-    <div className="desc">
-      <h1 className="text">Contacts</h1>
+    <div className="contact">
+      <h1>Thanks for visiting!</h1>
+      <p className="first">I would love to hear more from you.</p>
+      <p className="sec">Want to know more about my projects? My work? Or want to provide me an opportunity of working with you?</p>
+      <h2><i className="fa fa-envelope" />sam.749382@gmail.com</h2>
+      <h2><i className="fa fa-phone" />9852236661</h2>
     </div>
   </div>
 );

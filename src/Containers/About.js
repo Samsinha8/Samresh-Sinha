@@ -8,16 +8,20 @@ const About = () => (
     <Header />
     <div className="navbar">
       <ul className="list">
-        <li className="ignore"><Link to="/" className="nodec">Home</Link></li>
-        <li className="dontignore"><b>About</b></li>
-        <li className="dontignore"><Link to="/Skills" className="nodec">Skills</Link></li>
-        <li className="dontignore"><Link to="/Portfolios" className="nodec">Portfolios</Link></li>
-        <li className="dontignore"><Link to="/Contacts" className="nodec">Contacts</Link></li>
+        <Link to="/" className="nodec"><li className="ignore">Home</li></Link>
+        <Link to="/About" className="nodec"><li className="dontignore"><b>About</b></li></Link>
+        <Link to="/Skills" className="nodec"><li className="dontignore">Skills</li></Link>
+        <Link to="/Portfolios" className="nodec"><li className="dontignore">Portfolios</li></Link>
+        <Link to="/Contacts" className="nodec"><li className="dontignore">Contacts</li></Link>
       </ul>
     </div>
     <div className="content" />
     <div className="desc">
-      <h1 className="text">About</h1>
+      <div className="abthead" />
+      <h1 className="text">About Me</h1>
+      <p>
+        My name is Samresh Kumar Sinha and I've completed my B-Tech degree in Electrical Engineering from Calcutta Institute of Technology, Howrah.
+      </p>
     </div>
 
   </div>

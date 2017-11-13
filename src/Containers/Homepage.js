@@ -8,16 +8,19 @@ const Homepage = () => (
     <Header />
     <div className="navbar">
       <ul className="list">
-        <li className="ignore"><b>Home</b></li>
-        <li className="dontignore"><Link to="/About" className="nodec">About</Link></li>
-        <li className="dontignore"><Link to="/Skills" className="nodec">Skills</Link></li>
-        <li className="dontignore"><Link to="/Portfolios" className="nodec">Portfolios</Link></li>
-        <li className="dontignore"><Link to="/Contacts" className="nodec">Contacts</Link></li>
+        <Link to="/" className="nodec"><li className="ignore"><b>Home</b></li></Link>
+        <Link to="/About" className="nodec"><li className="dontignore">About</li></Link>
+        <Link to="/Skills" className="nodec"><li className="dontignore">Skills</li></Link>
+        <Link to="/Portfolios" className="nodec"><li className="dontignore">Portfolios</li></Link>
+        <Link to="/Contacts" className="nodec"><li className="dontignore">Contacts</li></Link>
       </ul>
     </div>
     <div className="content" />
-    <img className="myimage" src="/images/myimage.jpg" alt="" />
-    <h1 className="hi">Hi ! I am Samresh</h1>
+    <div className="home">
+      <img className="myimage" src="/images/myimage.jpg" alt="" />
+      <h1 className="hi">Hi ! I'm Samresh</h1>
+      <h2 className="hi2">Developer. Quick Learner.</h2>
+    </div>
   </div>
 );
 
