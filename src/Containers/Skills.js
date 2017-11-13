@@ -16,7 +16,9 @@ const Skills = () => (
       </ul>
     </div>
     <div className="content" />
-    <h1 className="hi">Skills</h1>
+    <div className="desc">
+      <h1 className="text">Skills</h1>
+    </div>
   </div>
 );
 

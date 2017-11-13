@@ -16,7 +16,10 @@ const About = () => (
       </ul>
     </div>
     <div className="content" />
-    <h1 className="hi">About</h1>
+    <div className="desc">
+      <h1 className="text">About</h1>
+    </div>
+
   </div>
 );
 

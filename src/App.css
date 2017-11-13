@@ -179,3 +179,19 @@
   margin-left: 480px;
   position: absolute;
 }
+.desc{
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  height: 580px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: grey;
+  margin-top: -580px;
+  position: relative;
+}
+.text{
+  margin: 0px;
+  padding: 0px;
+  color: white;
+}

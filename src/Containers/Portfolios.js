@@ -16,7 +16,9 @@ const Portfolios = () => (
       </ul>
     </div>
     <div className="content" />
-    <h1 className="hi">Portfolios</h1>
+    <div className="desc">
+      <h1 className="text">Portfolios</h1>
+    </div>
   </div>
 );
 

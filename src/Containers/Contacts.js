@@ -16,7 +16,9 @@ const Contacts = () => (
       </ul>
     </div>
     <div className="content" />
-    <h1 className="hi">Contacts</h1>
+    <div className="desc">
+      <h1 className="text">Contacts</h1>
+    </div>
   </div>
 );
 
