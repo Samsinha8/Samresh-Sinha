@@ -19,6 +19,21 @@ const Skills = () => (
     <div className="desc">
     <div className="sklhead" />
     <h1 className="text">My Skills</h1>
+    <h3>LANGUAGES</h3>
+    <hr />
+    <p>JavaScript, HTML, CSS, C, SQL</p>
+    <h3>FRAMEWORKS, LIBRARIES AND OTHER TECHNOLOGIES</h3>
+    <hr />
+    <p>Node.js, React</p>
+    <h3>DATABASES</h3>
+    <hr />
+    <p>My SQL, MongoDB</p>
+    <h3>VERSION CONTROL</h3>
+    <hr />
+    <p>Git</p>
+    <h3>PLATFORMS</h3>
+    <hr />
+    <p>Windows, Linux (Ubuntu)</p>
     </div>
   </div>
 );

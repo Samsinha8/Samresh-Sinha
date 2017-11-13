@@ -181,12 +181,12 @@
   height: 300px;
   width: 300px;
   border-radius: 100%;
-  border: 2px solid #571F1F;
+  border: 2px solid white;
   padding: 5px;
 }
 .hi{
   font-family: 'Roboto', sans-serif;
-  color: #571F1F;
+  color: white;
   font-size: 40px;
   font-weight: 300;
   margin-bottom: 0px;
@@ -205,15 +205,34 @@
   margin-left: auto;
   margin-right: auto;
   background-color: rgba(250, 250, 250, 0.87);
-  margin-top: -560px;
+  margin-top: -570px;
   position: relative;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
 }
 .desc p{
-  margin: 20px;
+  margin-top: 0px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 24px;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 17px;
+}
+.desc h3{
+  margin-left: 20px;
+  margin-bottom: 0px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+}
+.desc h2{
+  margin-left: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+.desc a{
+  text-decoration: none;
+  color: grey;
 }
 .abthead{
   border-radius: 2px;
@@ -255,33 +274,36 @@
   font-family: 'Roboto', sans-serif;
 }
 .contact h1{
-  font-weight: 200;
+  font-weight: 300;
   font-size: 60px;
-  color: #571F1F;
+  color: white;
+}
+.contact a{
+  text-decoration: none;
 }
 .first{
   margin-top: 80px;
-  color: #571F1F;
+  color: white;
   font-size: 30px;
   font-weight: 300;
 }
 .sec{
   font-size: 23px;
-  color: #571F1F;
+  color: white;
   font-weight: 300;
 }
 .fa-envelope{
-  color: #571F1F;
+  color: white;
   font-size: 25px;
   margin-right: 20px;
 }
 .fa-phone{
-  color: #571F1F;
+  color: white;
   font-size: 25px;
   margin-right: 20px;
 }
 .contact h2{
-  font-size: 20px;
-  font-weight: 300;
-  color: #571F1F;
+  font-size: 22px;
+  font-weight: 500;
+  color: white;
 }
