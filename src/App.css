@@ -34,9 +34,12 @@
 }
 .slideHeader {
   width: 100%;
-  height: 60px;
+  height: 56px;
   margin-top: -60px;
-  background-color: #2a434a;
+  background-image: url("/images/Background.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  opacity: 0.8;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -85,7 +88,7 @@
   margin-top: 0px;
   margin-bottom: 5px;
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
 }
 .links hr{
   color: grey;
@@ -102,25 +105,13 @@
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
 }
-.sidegit{
+.icons{
   margin-right: 10px;
   font-size: 25px;
 }
-.sidelink{
-  margin-right: 10px;
-  font-size: 25px;
-}
-.fa-address-card-o{
+.icons2{
   margin-right: 10px;
   font-size: 20px;
-}
-.email{
-  margin-right: 10px;
-  font-size: 20px;
-}
-.sidephone{
-  margin-right: 10px;
-  font-size: 23px;
 }
 .backdrop {
   z-index: 2;
@@ -143,9 +134,16 @@
     transition: all 300ms ease;
 }
 .github{
-  margin-left: 60%;
+  margin-left: 55%;
 }
 .githead{
+  font-size: 40px;
+  color: white;
+}
+.angel{
+  margin-left: 2%;
+}
+.angelhead{
   font-size: 40px;
   color: white;
 }
@@ -202,8 +200,8 @@
 
 .content{
   height: 580px;
-  background-image: url("/images/background.jpg");
-  background-size: 100% 100%; 
+  background-image: url("/images/Background.jpg");
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   opacity: 0.8;
 }
@@ -236,7 +234,7 @@
 }
 .hi2{
   font-family: 'Roboto', sans-serif;
-  color: #571F1F;
+  color: white;
   font-size: 25px;
   font-weight: 300;
 }
@@ -246,7 +244,8 @@
   height: 560px;
   margin-left: auto;
   margin-right: auto;
-  background-color: rgba(250, 250, 250, 0.87);
+  background-color: grey;
+  color: white;
   margin-top: -570px;
   position: relative;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
@@ -266,6 +265,7 @@
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 17px;
+  color: white;
 }
 .desc h2{
   margin-left: 20px;
@@ -278,6 +278,7 @@
 }
 .abthead{
   border-radius: 2px;
+  border-bottom: 2px solid white;
   height: 25%;
   width: 100%;
   background-image: url("/images/abthead.jpg");
@@ -287,6 +288,7 @@
 }
 .sklhead{
   border-radius: 2px;
+  border-bottom: 2px solid white;
   height: 25%;
   width: 100%;
   background-image: url("/images/sklhead.jpg");
@@ -305,18 +307,83 @@
   font-weight: 300;
   font-size: 30px;
 }
+.port1{
+  border-radius: 2px;
+  width: 70%;
+  height: 270px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: grey;
+  color: white;
+  margin-top: -570px;
+  position: relative;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+}
+.port1head{
+  height: 40%;
+  width: 100%;
+  border-bottom: 2px solid white;
+  background-image: url("/images/port1.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+}
+.title{
+  position: absolute;
+  margin-top: -45px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  margin-left: 2%;
+  padding: 0px;
+  font-size: 30px;
+}
+.subdesc{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  margin-left: 2%;
+  font-size: 18px;
+}
+.weblink{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  margin-left: 2%;
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+}
+.port2{
+  border-radius: 2px;
+  width: 70%;
+  height: 270px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: grey;
+  color: white;
+  margin-top: 15px;
+  position: relative;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+}
+.port2head{
+  height: 40%;
+  width: 100%;
+  border-bottom: 2px solid white;
+  background-image: url("/images/port2.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+}
 
 .contact{
   text-align: center;
   height: 500px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: -550px;
+  margin-top: -570px;
   position: relative;
   font-family: 'Roboto', sans-serif;
 }
 .contact h1{
-  font-weight: 300;
+  font-weight: 200;
   font-size: 60px;
   color: white;
 }
@@ -324,7 +391,7 @@
   text-decoration: none;
 }
 .first{
-  margin-top: 80px;
+  margin-top: 90px;
   color: white;
   font-size: 30px;
   font-weight: 300;
@@ -346,6 +413,18 @@
 }
 .contact h2{
   font-size: 22px;
-  font-weight: 500;
+  font-weight: 300;
   color: white;
+}
+.cicon{
+  font-size: 30px;
+  line-height: 40px;
+  height: 40px;
+  width: 40px;
+  color: white;
+  border-radius: 100%;
+  border: 2px solid white;
+  padding: 5px;
+  margin-left: 15px;
+  margin-right: 15px;
 }

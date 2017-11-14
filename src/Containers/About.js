@@ -26,7 +26,7 @@ const About = () => (
       </p>
       <p>
         I joined CIT in 2011. Joining CIT was great for me in my life. Although I chose a different
-        field, I always had interest in Programming and Web-development. Iam now a step closer to my
+        field, I always had interest in Programming and Web-development. I am now a step closer to my
         goal, becoming a software developer.
       </p>
       <p>

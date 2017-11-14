@@ -22,7 +22,7 @@ const Homepage = () => (
       <img className="myimage" src="/images/myimage.jpg" alt="" />
       <h1 className="hi">Hi ! I'm Samresh</h1>
       <Typist>
-        <h2 className="hi2">Developer and Quick Learner</h2>
+        <h2 className="hi2">I am a Developer and Quick Learner</h2>
       </Typist>
     </div>
   </div>
