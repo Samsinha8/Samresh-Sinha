@@ -20,8 +20,8 @@ const Contacts = () => (
       <h1>Thanks for visiting!</h1>
       <p className="first">I would love to hear more from you.</p>
       <p className="sec">Want to know more about my projects? My work? Or want to provide me an opportunity of working with you?</p>
-      <a href="mailto:sam.749382@gmail.com"><h2><i className="fa fa-envelope" />sam.749382@gmail.com</h2></a>
-      <h2><i className="fa fa-phone" />9852236661</h2>
+      <a href="mailto:sam.749382@gmail.com"><h2><i className="fa fa-envelope mail" />sam.749382@gmail.com</h2></a>
+      <h2><i className="fa fa-phone phone" />9852236661</h2>
     </div>
   </div>
 );

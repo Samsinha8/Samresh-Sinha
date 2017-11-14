@@ -1,4 +1,6 @@
 import React from 'react';
+import Typist from 'react-typist';
+import '../../node_modules/react-typist/dist/Typist.css';
 import { Link } from 'react-router-dom';
 import Header from '../Components/Header';
 import '../App.css';
@@ -19,7 +21,9 @@ const Homepage = () => (
     <div className="home">
       <img className="myimage" src="/images/myimage.jpg" alt="" />
       <h1 className="hi">Hi ! I'm Samresh</h1>
-      <h2 className="hi2">Developer. Quick Learner.</h2>
+      <Typist>
+        <h2 className="hi2">Developer and Quick Learner</h2>
+      </Typist>
     </div>
   </div>
 );
