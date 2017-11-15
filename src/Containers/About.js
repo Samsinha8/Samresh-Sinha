@@ -37,8 +37,7 @@ const About = () => (
         </p>
         <p>
           I like exploring new tech articles on the internet, to keep myself updated with the recent
-          technology. My interest lies in knowing more about Cloud Computing, Web Technology, and
-          Artificial Intelligence.
+          technology. My interest lies in knowing more about Web Technology.
         </p>
         <p>
           In my free time, I like to share my knowledge on Quora and do competitive coding on Websites
