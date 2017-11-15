@@ -1,4 +1,5 @@
 import React from 'react';
+import Fade from 'react-reveal/Fade';
 import Typist from 'react-typist';
 import '../../node_modules/react-typist/dist/Typist.css';
 import { Link } from 'react-router-dom';
@@ -19,8 +20,12 @@ const Homepage = () => (
     </div>
     <div className="content" />
     <div className="home">
-      <img className="myimage" src="/images/myimage.jpg" alt="" />
-      <h1 className="hi">Hi ! I'm Samresh</h1>
+      <Fade top>
+        <img className="myimage" src="/images/myimage.jpg" alt="" />
+      </Fade>
+      <Fade delay={500} bottom>
+        <h1 className="hi">Hi ! I'm Samresh</h1>
+      </Fade>
       <Typist>
         <h2 className="hi2">I am a Developer and Quick Learner</h2>
       </Typist>
