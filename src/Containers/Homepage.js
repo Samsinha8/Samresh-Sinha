@@ -24,7 +24,7 @@ const Homepage = () => (
         <img className="myimage" src="/images/myimage.jpg" alt="" />
       </Fade>
       <Fade delay={500} bottom>
-        <h1 className="hi">Hi ! I'm Samresh</h1>
+        <h1 className="hi">Hi ! {"I'm"} Samresh</h1>
       </Fade>
       <Typist>
         <h2 className="hi2">I am a Developer and Quick Learner</h2>
