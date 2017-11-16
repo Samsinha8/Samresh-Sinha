@@ -44,7 +44,7 @@ const About = () => (
           like Hackerrank. I also play Table Tennis.
         </p>
         <hr />
-        <a href="https://drive.google.com/file/d/0BwaHyFnWjuFRY0pTUjFzRmt6TTg/view?usp=sharing"><h3>CLICK HERE TO VIEW MY RESUME</h3></a>
+        <a href="https://drive.google.com/file/d/1J8T3MJ4W5l4z5Sjp0_u691QJH2CqYE4d/view?usp=sharing"><h3>CLICK HERE TO VIEW MY RESUME</h3></a>
       </div>
     </Fade>
   </div>
