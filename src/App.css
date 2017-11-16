@@ -1,5 +1,11 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:700,400,500,300,200,100);
 
+body{
+  background-image: url("/images/Background.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
 .App-header {
   display: flex;
   flex-wrap: wrap;
@@ -200,26 +206,14 @@
 }
 
 
-.content{
-  height: 580px;
-  background-image: url("/images/Background.jpg");
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  opacity: 0.8;
-}
 .home{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: relative;
-  width: 70%;
-  height: 580px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: -580px;
 }
 .myimage{
+  margin-top: 20%;
   height: 300px;
   width: 300px;
   border-radius: 100%;
@@ -244,13 +238,11 @@
 .desc{
   border-radius: 2px;
   width: 70%;
-  height: 560px;
+  margin-top: 0.5%;
   margin-left: auto;
   margin-right: auto;
   background-color: grey;
   color: white;
-  margin-top: -570px;
-  position: relative;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
 }
 .desc p{
@@ -272,6 +264,7 @@
 }
 .desc h2{
   margin-left: 20px;
+  margin-bottom: 0px;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
 }
@@ -282,7 +275,7 @@
 .abthead{
   border-radius: 2px;
   border-bottom: 2px solid white;
-  height: 25%;
+  height: 110px;
   width: 100%;
   background-image: url("/images/abthead.jpg");
   background-position-y: 70%;
@@ -292,7 +285,7 @@
 .sklhead{
   border-radius: 2px;
   border-bottom: 2px solid white;
-  height: 25%;
+  height: 110px;
   width: 100%;
   background-image: url("/images/sklhead.jpg");
   background-position-y: 75%;
@@ -314,12 +307,11 @@
   border-radius: 2px;
   width: 70%;
   height: 270px;
+  margin-top: 0.5%;
   margin-left: auto;
   margin-right: auto;
   background-color: grey;
   color: white;
-  margin-top: -570px;
-  position: relative;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
 }
 .port1head{
@@ -362,7 +354,7 @@
   margin-right: auto;
   background-color: grey;
   color: white;
-  margin-top: 15px;
+  margin-top: 0.5%;
   position: relative;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
 }
@@ -377,12 +369,10 @@
 }
 
 .contact{
+  display: flex;
+  flex-direction: column;
   text-align: center;
-  height: 500px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: -570px;
-  position: relative;
+  align-items: center;
   font-family: 'Roboto', sans-serif;
 }
 .contact h1{
@@ -394,7 +384,7 @@
   text-decoration: none;
 }
 .first{
-  margin-top: 90px;
+  margin-top: 2%;
   color: white;
   font-size: 30px;
   font-weight: 300;
@@ -421,7 +411,6 @@
 }
 .fbicons{
   display: flex;
-  margin-left: 37%;
 }
 .cicon{
   font-size: 30px;

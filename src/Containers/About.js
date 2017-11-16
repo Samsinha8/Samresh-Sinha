@@ -16,7 +16,6 @@ const About = () => (
         <Link to="/Contacts" className="nodec"><li className="dontignore">Contacts</li></Link>
       </ul>
     </div>
-    <div className="content" />
     <Fade left>
       <div className="desc">
         <div className="abthead" />

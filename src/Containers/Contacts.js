@@ -16,7 +16,6 @@ const Contacts = () => (
         <Link to="/Contacts" className="nodec"><li className="dontignore"><b>Contacts</b></li></Link>
       </ul>
     </div>
-    <div className="content" />
     <div className="contact">
       <Fade bottom><h1>Thanks for visiting!</h1></Fade>
       <Fade bottom><p className="first">I would love to hear more from you.</p></Fade>

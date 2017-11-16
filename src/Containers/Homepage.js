@@ -18,7 +18,6 @@ const Homepage = () => (
         <Link to="/Contacts" className="nodec"><li className="dontignore">Contacts</li></Link>
       </ul>
     </div>
-    <div className="content" />
     <div className="home">
       <Fade top>
         <img className="myimage" src="/images/myimage.jpg" alt="" />
